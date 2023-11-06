@@ -11,8 +11,8 @@ public class Applicant extends Person {
     }
 
 
-    public Applicant(String firstName, String lastName, int age){
-        super(firstName, lastName, age);
+    public Applicant(int age, String firstName, String lastName, String type){
+        super(age, firstName, lastName, type);
         this.isProcessed=false;
     }
 }
